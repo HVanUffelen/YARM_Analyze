@@ -1,0 +1,26 @@
+{
+    "name": "yarm/bookshelf",
+    "description": "test pkg bookshelf",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albert Baffour Awuah",
+            "email": "info@albert-it.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yarm\\Bookshelf\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yarm\\Booksehlf\\BookshelfServiceProvider"
+            ]
+        }
+    }
+}

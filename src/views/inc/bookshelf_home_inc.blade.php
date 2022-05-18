@@ -1,7 +1,7 @@
 {{App()->setLocale(Session::get('userLanguage'))}}
 @php
     //Todo move to controller
-    $records = \App\Http\Controllers\BookshelfBaseController::getBookshelfData('Sidebar', 5);
+    $records = Yarm\Bookshelf\Http\Controllers\BookshelfController::getBookshelfData('Sidebar', 5);
 @endphp
 <div class="card bookshelf sidebar">
     <div class="card-header">
@@ -20,7 +20,7 @@
         {{--        //TODO refactor as  function???--}}
         @if(!empty($records['records']))
             <div class="bookshelf-sidebar-content">
-                @include('dlbt.bookshelf.inc.bookshelf_data_sidebar_inc', array('rows'  => $records['rows']))
+                @include('bookshelf::inc.bookshelf_data_sidebar_inc', array('rows'  => $records['rows']))
             </div>
         @else
             <div class="bookshelf-sidebar-content">

@@ -6,7 +6,7 @@
         <div class="card-header">
             {{--Todo popover text--}}
             <h3>@lang('Bookshelf
-')
+{{--{{--')--}}--}}
                 <a title="Info" data-placement="top" data-toggle="popover"
                    data-trigger="hover"
                    data-content="@lang('Manage your bookshelf here. You can download and convert your files if possible.')"><i
@@ -31,7 +31,7 @@
             @endif
 
             <div class="bookshelfContent">
-                @include('dlbt.bookshelf.inc.bookshelf_data_inc')
+                @include('bookshelf::inc.bookshelf_data_inc')
             </div>
 
             <input type="hidden" name="hidden_page" id="hidden_page" value="1"/>
@@ -59,3 +59,4 @@
         </div>
     </div>
 @endsection
+{{--<script src="{{ asset('vendor/js/bookshelf.js')}}" defer></script>--}}

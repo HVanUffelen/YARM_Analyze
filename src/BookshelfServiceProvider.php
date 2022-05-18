@@ -11,6 +11,7 @@ class BookshelfServiceProvider extends ServiceProvider{
 
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         $this->loadViewsFrom(__DIR__.'/views','bookshelf');
+        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         $this->mergeConfigFrom(__DIR__ . '/config/bookshelf.php','bookshelf');
         $this->publishes([
             //__DIR__ . '/config/bookshelf.php' => config_path('bookshelf.php'),

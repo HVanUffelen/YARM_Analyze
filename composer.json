@@ -1,6 +1,6 @@
 {
     "name": "yarm/bookshelf",
-    "description": "test pkg bookshelf",
+    "description": "Pkg bookshelf",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,13 +9,15 @@
             "email": "info@albert-it.be"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Yarm\\Bookshelf\\": "src/"
-        }
-    },
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "laravelcollective/html": "^6.2"
+    },
+    "autoload": {
+    "psr-4": {
+        "Yarm\\Bookshelf\\": "src/"
+    }
+},
     "extra": {
         "laravel": {
             "providers": [

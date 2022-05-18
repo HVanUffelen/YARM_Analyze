@@ -14,14 +14,14 @@
         "laravelcollective/html": "^6.2"
     },
     "autoload": {
-    "psr-4": {
-        "Yarm\\Bookshelf\\": "src/"
-    }
-},
+        "psr-4": {
+            "Yarm\\Bookshelf\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
-                "Yarm\\Booksehlf\\BookshelfServiceProvider"
+                "Yarm\\Bookshelf\\BookshelfServiceProvider"
             ]
         }
     }

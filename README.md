@@ -3,7 +3,7 @@
 
 ## Usage (follow/run the following commands in your terminal)
 
-- to install packages
+- to install package
 
 composer require yarm/bookshelf
 
@@ -17,4 +17,4 @@ php artisan migrate
  
 - connect js to app (copy ... to resources/js/app.js)
 
-resources/js/app.js > require('./vendor/bookshelf')
+require('./vendor/bookshelf')

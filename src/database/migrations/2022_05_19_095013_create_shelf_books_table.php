@@ -12,7 +12,7 @@ class CreateShelfBooksTable extends Migration
      * @return void
      */
     public function up()
-    {
+    {if(!Schema::hasTable('shelf_books')){
         Schema::create('shelf_books', function (Blueprint $table) {
             $table->bigIncrements('id')->unique();
             $table->bigInteger('user_id')->nullable(true)->default(NULL);
@@ -28,7 +28,7 @@ class CreateShelfBooksTable extends Migration
             $table->string('session_id', 100)->nullable(true)->default(NULL);
             $table->timestamps();
         });
-    }
+    }}
 
     /**
      * Reverse the migrations.

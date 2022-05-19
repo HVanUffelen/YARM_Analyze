@@ -15,6 +15,3 @@ php artisan vendor:publish --provider="Yarm\Bookshelf\BookshelfServiceProvider" 
 
 php artisan migrate  
  
-- connect js to app (copy ... to resources/js/app.js)
-
-require('./vendor/bookshelf')

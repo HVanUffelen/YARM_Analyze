@@ -17,7 +17,7 @@ class BookshelfServiceProvider extends ServiceProvider{
             //__DIR__ . '/config/bookshelf.php' => config_path('bookshelf.php'),
             __DIR__.'/views' => resource_path('views/vendor/bookshelf'),
             // Assets
-            __DIR__.'/js' => public_path('vendor/js'),
+            __DIR__.'/js' => resource_path('js/vendor'),
         ],'bookshelf');
 
 

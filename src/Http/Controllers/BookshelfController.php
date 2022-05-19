@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Storage;
 use Redirect;
 use Response;
-use App\Models\Shelf_book;
+use Yarm\Bookshelf\Models\Shelf_book;
 
 class BookshelfController extends Controller
 {

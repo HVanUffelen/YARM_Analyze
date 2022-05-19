@@ -223,9 +223,9 @@ class BookshelfController extends Controller
         $template = ($request['sidebar'] == true) ? 'bookshelf_data_sidebar_inc' : 'bookshelf_data_inc';
         $paginationValue = 5;// todo this should probably be set via the user preferences
 
-        if ($request->ajax()) {
+       if ($request->ajax()) {
             $data = self::getBookshelfData($blade, $paginationValue, $request);
-            return view('bookshelf::bookshelf.inc.' . $template, $data);
+            return view('bookshelf::inc.' . $template, $data);
         }
     }
 

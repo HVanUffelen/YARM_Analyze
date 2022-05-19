@@ -5,8 +5,7 @@
     <div class="card">
         <div class="card-header">
             {{--Todo popover text--}}
-            <h3>@lang('Bookshelf
-{{--{{--')--}}--}}
+            <h3>@lang('Bookshelf')
                 <a title="Info" data-placement="top" data-toggle="popover"
                    data-trigger="hover"
                    data-content="@lang('Manage your bookshelf here. You can download and convert your files if possible.')"><i

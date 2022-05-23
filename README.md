@@ -1,17 +1,14 @@
-﻿# YARM_bookshelf
+﻿# YARM_Analyze
 
 
 ## Usage (follow/run the following commands in your terminal)
 
-- to install package
+to install package
 
-composer require yarm/bookshelf
+> composer require yarm/analyze
 
-- publish routes/config/views/js/
+publish routes/config/views/js/
 
-php artisan vendor:publish --provider="Yarm\Bookshelf\BookshelfServiceProvider" --force
+> php artisan vendor:publish --provider="Yarm\Analyze\AnalyzeServiceProvider" --force
 
-- create the bookshelf table 
-
-php artisan migrate  
- 
+ * Yarm/bookshelf needs to be installed and configured

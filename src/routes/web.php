@@ -1,11 +1,19 @@
 <?php
-Route::group(['namespace'=>'Yarm\Bookshelf\Http\Controllers','prefix'=>'dlbt','middleware'=>['web']], function (){
-    Route::get('/bookshelf/bookshelfForm', 'BookshelfController@bookshelfForm')
-        ->name('bookshelfForm');
-    Route::get('/bookshelf/bookshelfFetch', 'BookshelfController@bookshelfFetch')
-        ->name('bookshelfFetch');
-    Route::resource('/bookshelf', 'BookshelfController');
-    Route::get('/bookshelfDelete', 'BookshelfController@destroy');
+Route::group(['namespace'=>'Yarm\Analyze\Http\Controllers','prefix'=>'dlbt','middleware'=>['web']], function (){
+
+    //Route for Voyant tests
+    Route::get('/tools/voyantTest', 'Tools\VoyantController@showCirrus')
+        ->name('showCirrus');
+
+    //Tools
+    Route::get('/tools/toolsForm', 'Tools\VoyantController@toolsForm')
+        ->name('toolsForm');
+
+    //Test Frame
+    Route::get('/test/testFrame', 'Tools\VoyantController@showTestFrame')
+        ->name('testFrame');
+
+
 });
 
 

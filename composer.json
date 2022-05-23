@@ -1,6 +1,6 @@
 {
-    "name": "yarm/bookshelf",
-    "description": "Pkg bookshelf",
+    "name": "yarm/analyze",
+    "description": "Pkg Analyze",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,17 +11,18 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "laravelcollective/html": "^6.2"
+        "laravelcollective/html": "^6.2",
+        "yarm/bookshelf": "*"
     },
     "autoload": {
         "psr-4": {
-            "Yarm\\Bookshelf\\": "src/"
+            "Yarm\\Analyze\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Yarm\\Bookshelf\\BookshelfServiceProvider"
+                "Yarm\\Analyze\\AnalyzeServiceProvider"
             ]
         }
     }

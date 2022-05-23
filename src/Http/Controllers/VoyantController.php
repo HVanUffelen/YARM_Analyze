@@ -16,7 +16,7 @@ class VoyantController extends Controller
      */
     public function showCirrus()
     {
-        return view('analyze:voyantTest');
+        return view('analyze::voyantTest');
     }
 
     /**
@@ -25,7 +25,7 @@ class VoyantController extends Controller
      */
     public function showTestFrame()
     {
-        return view('analyze:test.test_frame');
+        return view('analyze::test.test_frame');
     }
 
     /**
@@ -103,6 +103,6 @@ class VoyantController extends Controller
             }
         }
 
-        return view('analyze:tools', $data);
+        return view('analyze::tools', $data);
     }
 }

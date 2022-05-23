@@ -11,4 +11,7 @@ publish routes/config/views/js/
 
 > php artisan vendor:publish --provider="Yarm\Analyze\AnalyzeServiceProvider" --force
 
- * Yarm/bookshelf needs to be installed and configured
+ 
+# Note
+* Yarm/bookshelf needs to be installed and configured
+* Don't forget to restart npm after installation

@@ -1,6 +1,6 @@
 {
     "name": "yarm/analyze",
-    "description": "Pkg Analyze",
+    "description": "An add-on for the YARM Reference Manager Application. Contains a the analyze feature",
     "type": "library",
     "license": "MIT",
     "authors": [

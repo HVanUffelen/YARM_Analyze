@@ -15,3 +15,6 @@ publish routes, config, views en JS
 # Note
 * Yarm/bookshelf needs to be installed and configured
 * Don't forget to restart npm after installation
+
+# view
+![img.png](img.png)

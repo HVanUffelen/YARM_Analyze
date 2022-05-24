@@ -7,7 +7,7 @@ to install package
 
 > composer require yarm/analyze
 
-publish routes/config/views/js/
+publish routes, config, views en JS
 
 > php artisan vendor:publish --provider="Yarm\Analyze\AnalyzeServiceProvider" --force
 

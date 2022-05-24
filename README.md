@@ -17,4 +17,5 @@ publish routes, config, views en JS
 * Don't forget to restart npm after installation
 
 # view
+![img_1.png](img_1.png)
 ![img.png](img.png)

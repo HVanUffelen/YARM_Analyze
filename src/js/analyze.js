@@ -41,7 +41,7 @@
             "<div class='row'>" +
 
             "<div class='col-1'>" +
-            "<a href='javascript:void(0)' data-url=" + YARM.voyant_url + "/tool/" + tool + "/?inputFormat=" + extension + "&input=http://localhost:8888/data_dlbt/DLBTUploads/" + file + " id='open-new-tab-frame'>" +
+            "<a href='javascript:void(0)' data-url=" + YARM.voyant_url + "/tool/" + tool + "/?inputFormat=" + extension + "&input=http://localhost:8888/data_dlbt/YARMDBUploads/" + file + " id='open-new-tab-frame'>" +
             "<i class='fa fa-external-link fa-lg' style='color: green'></i>" +
             "</a>" +
             "</div>" +
@@ -62,7 +62,7 @@
             "</div>" +
 
             "<div class='card-body'>" +
-            "<iframe class='col-12' style='width: 700px; height: 500px; align-content: center;' src=" + YARM.voyant_url + "/tool/" + tool + "/?inputFormat=" + extension + "&input=http://localhost:8888/data_dlbt/DLBTUploads/" + file + "></iframe>" +
+            "<iframe class='col-12' style='width: 700px; height: 500px; align-content: center;' src=" + YARM.voyant_url + "/tool/" + tool + "/?inputFormat=" + extension + "&input=http://localhost:8888/data_dlbt/YARMDBUploads/" + file + "></iframe>" +
             "</div>" +
 
             "</div>";

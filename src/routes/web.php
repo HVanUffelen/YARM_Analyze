@@ -1,5 +1,5 @@
 <?php
-Route::group(['namespace'=>'Yarm\Analyze\Http\Controllers','prefix'=>'dlbt','middleware'=>['web']], function (){
+Route::group(['namespace'=>'Yarm\Analyze\Http\Controllers','prefix'=> strtolower(config('yarm.sys_name')),'middleware'=>['web']], function (){
 
     //Route for Voyant tests
     Route::get('/tools/voyantTest', 'VoyantController@showCirrus')

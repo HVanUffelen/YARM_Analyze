@@ -4,19 +4,19 @@
     <title>Title</title>
     <!--<iframe style='width: 637px; height: 480px;' src='//127.0.0.1:8888/tool/Cirrus/?corpus=20c4be9826d1832f88f1f354858e8cc7'></iframe>-->
 {{--    <iframe style='width: 637px; height: 480px;' src="http://voyant-tools.org/tool/Cirrus/?input=https://dlbt-db.ned.univie.ac.at/COPYING"></iframe>--}}
-    {{--<iframe style='width: 637px; height: 480px;' src="http://voyant-tools.org/tool/Cirrus/?inputFormat=PDF&input=C:\xampp\htdocs\yarm4dlbt\test.pdf"></iframe>--}}
-    <!--<iframe style='width: 637px; height: 480px;' src="//127.0.0.1:8888/tool/Cirrus/?input=https://dlbt-db.ned.univie.ac.at/00AUTHORS.txt"></iframe>-->
+{{--<iframe style='width: 637px; height: 480px;' src="http://voyant-tools.org/tool/Cirrus/?inputFormat=PDF&input=C:\xampp\htdocs\yarm4dlbt\test.pdf"></iframe>--}}
+<!--<iframe style='width: 637px; height: 480px;' src="//127.0.0.1:8888/tool/Cirrus/?input=https://dlbt-db.ned.univie.ac.at/00AUTHORS.txt"></iframe>-->
     <iframe style='width: 637px; height: 480px;' src="//127.0.0.1:8888/tool/Cirrus/?inputFormat=PDF&input=http://localhost:8888/data_dlbt/test.pdf"></iframe>
-{{--    <iframe style='width: 637px; height: 480px;' src="http://voyant-tools.org/tool/Cirrus/?inputFormat=PDF&input=http://localhost:8888/data_dlbt/test.pdf"></iframe>--}}
-{{--    <iframe style='width: 637px; height: 480px;' src="http://voyant-tools.org/tool/Cirrus/?input=http://localhost:80/Der_Geldteufel.pdf"></iframe>--}}
+    {{--    <iframe style='width: 637px; height: 480px;' src="http://voyant-tools.org/tool/Cirrus/?inputFormat=PDF&input=http://localhost:8888/data_dlbt/test.pdf"></iframe>--}}
+    {{--    <iframe style='width: 637px; height: 480px;' src="http://voyant-tools.org/tool/Cirrus/?input=http://localhost:80/Der_Geldteufel.pdf"></iframe>--}}
     {{--<iframe style='width: 637px; height: 480px;' src='//127.0.0.1:8888/tool/Cirrus/?inputFormat=PDF&input=C:\Users\herbe\Downloads\elasticsearch\elasticsearch\pdfs\TestTEI.xml'></iframe>
     <iframe style='width: 637px; height: 480px;' src="//127.0.0.1:8888/tool/Cirrus/?inputFormat=XML&input=http://digitalhumanities.org/dhq/vol/3/3/000067/000067.xml"
             style="width: 300px; height: 300px;"></iframe>--}}
-   <iframe src="http://voyant-tools.org/tool/Cirrus/?inputFormat=XML&input=http://digitalhumanities.org/dhq/vol/3/3/000067/000067.xml"
+    <iframe src="http://voyant-tools.org/tool/Cirrus/?inputFormat=XML&input=http://digitalhumanities.org/dhq/vol/3/3/000067/000067.xml"
             style="width: 300px; height: 300px;"></iframe>
     {{--<iframe src="http://voyant-tools.org/tool/Cirrus/?input=https://yarm.ned.univie.ac.at/robots.txt"
             style="width: 300px; height: 300px;"></iframe>--}}
-         </head>
+</head>
 <body>
 
 </body>

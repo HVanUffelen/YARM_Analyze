@@ -60,11 +60,11 @@
                 <div class="card">
                     {{--<h4 class="card-header">@lang('Tools')</h4>--}}
                     {{--<div class="card-body" style="justify-content: center">--}}
-                        <div class="bookshelfContent">
-                            <div class="search-result-citation py-2 home">
-                                <h3>@lang('No Files: Bookshelf is empty')</h3>
-                            </div>
+                    <div class="bookshelfContent">
+                        <div class="search-result-citation py-2 home">
+                            <h3>@lang('No Files: Bookshelf is empty')</h3>
                         </div>
+                    </div>
                     {{--</div>--}}
                 </div>
             @endif

@@ -10,7 +10,7 @@ class AnalyzeServiceProvider extends ServiceProvider{
     {
 
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
-        $this->loadViewsFrom(__DIR__.'/views','analyze');
+        //$this->loadViewsFrom(__DIR__.'/views','analyze');
         $this->mergeConfigFrom(__DIR__ . '/config/analyze.php','analyze');
         $this->publishes([
             //__DIR__ . '/config/analyze.php' => config_path('analyze.php'),

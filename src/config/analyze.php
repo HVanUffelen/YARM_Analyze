@@ -2,6 +2,6 @@
 
 return [
 
-  'analyze_present' => "True"
+  'analyze_present' => true
 
 ];

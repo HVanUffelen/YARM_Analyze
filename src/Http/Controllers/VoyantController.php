@@ -36,8 +36,9 @@ class VoyantController extends Controller
     public function toolsForm(Request $request)
     {
 
-        //check if user is verified
-        if (auth()->user() && !auth()->user()->hasVerifiedEmail()) return redirect('email/verify');
+        //Check if User has Permissions
+        list($access,$path) = Auth\LoginController::CheckLoginVerification();
+        if ($access == false) return redirect($path);
 
         //Hide layout when user is Typo3DLBT
         ValidationController::checkIfUserIsTypo3DLBT($request);

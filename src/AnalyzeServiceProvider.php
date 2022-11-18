@@ -21,7 +21,7 @@ class AnalyzeServiceProvider extends ServiceProvider{
 
 
         //after every update
-        //run   php artisan vendor:publish [--provider="Yarm\Analyze\AnalyzeServiceProvider"][--tag="analyze"]  --force
+        //run   php artisan vendor:publish --provider="Yarm\Analyze\AnalyzeServiceProvider" --tag="analyze"  --force
     }
 
     public function register()

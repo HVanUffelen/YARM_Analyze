@@ -96,7 +96,7 @@ class VoyantController extends Controller
                     $fileKey = $file['fileName'];
 
                     //Add path to dir downloaded or unzipped to key
-                    if (isset($file['pathAndName']))
+                    if (!empty($file['pathAndName']))
                         if ($file['identifier_id'] != 0)
                             $fileKey = $file['pathAndName'] . '/';
 
